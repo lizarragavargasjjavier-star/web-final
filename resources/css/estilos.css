@@ -1,0 +1,183 @@
+
+/* ------------------DISEÑO CSS PAGINA PRINCIPAL-------------------------> */
+body{
+    background-color: #ffffff;
+}
+header
+{
+    background: #1b305b;;
+    text-align: center;
+    color: white;
+    min-height: 120px;
+    border-radius: 10px;
+   font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    padding-top: 2px;
+    
+  
+}
+.menu{
+    display: flex;
+  justify-content: center;
+  gap: 4px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 2px auto;
+  padding: 0 5px;
+   
+}
+.opcion-menu {
+  flex: 1;
+  min-width: 0;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+
+  background-color: #3891d6;
+  color: white;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+   
+}
+.opcion-menu h3 {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .menu {
+    flex-wrap: wrap;
+  }
+
+  .opcion-menu {
+    flex: 1 1 140px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+  }
+}
+.s
+{
+    display: flex;
+    min-width: 100%;
+    justify-content: center;
+    box-sizing: border-box;
+    color: white;
+    align-items: center;
+}
+
+.a1
+{
+    float: center;
+    background-color: #19acf0;
+    margin: 2px;
+    padding: 5px;
+    border: black solid 3px;
+    max-width: auto;
+    height: auto;
+    border-radius: 10px;
+    text-align: justify;
+    color:rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Roboto', Courier, monospace;
+    
+}
+.parrafo
+{
+    background-color: rgb(122, 168, 255);
+    color: white;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+
+}
+img {
+  width: 100%;
+  height: auto; /* Mantiene la proporción original de la imagen */
+  border-radius: 10px;
+  transition: background-color 0.5s ease, transform 0.5s ease;
+}
+.a2{
+   float: center;
+    background-color: #19acf0;
+    margin: 2px;
+    padding: 5px;
+    border: black solid 3px;
+    max-width: 50%;
+    height: auto;
+    border-radius: 10px;
+    text-align: justify;
+    color:rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Courier New', Courier, monospace;
+  
+}
+aside.a2 img{
+  height:300px;
+}
+
+
+
+
+
+#foot{
+    float: inline-end;
+    width: 100%;
+    text-align: center;
+    background-color: #1b305b;
+    color:#ffffff;
+    border-radius: 10px;
+    border-color:#82d7ff;
+    border-width: 10px;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+footer img{
+  width:50px;
+  height:50px;
+  justify-content: center;
+
+}
+
+
+
+/* ------------------DISEÑO CSS PAGINA 2-------------------------> */
+
+/*----------------------DISEÑO CSS PAGINA 4--------------------------*/
+input{
+  border-radius: 5px;
+}
+button{
+  border-radius: 5px;
+  background-color: rgb(0, 89, 255);
+  color: white;
+  height:40px;
+  width:100px;
+}
+
+table
+{
+  background-color: #1b305b;
+  color: white;
+  border-radius: 5px;
+  border-color: #1b305b;
+  border: 5px;
+
+}
+
+#tablax{
+  
+  background-color: white;
+  color: #1b305b;
+  border-radius: 5px;
+  border-color: #1b305b;
+  border: 5px;
+}

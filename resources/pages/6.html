@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test de Salud Mental</title>
+      <link rel="stylesheet" href="../css/estilos.css">
+    <script src="../../resources/javascript/script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+</div>
+</head>
+<body>
+    <header>
+    <h1 class="animate__animated animate__flash">Test de Evaluación de la Salud Mental del Estudiante</h1>
+    </header>
+
+<div class="menu animate__animated animate__pulse">
+    <a href="../../index.html" class="opcion-menu"><h3>Inicio</h3></a>
+    <a href="2.html" class="opcion-menu"><h3>Factores y riesgos</h3></a>
+    <a href="3.html" class="opcion-menu"><h3>Estadisticas</h3></a>
+    <a href="6.html" class="opcion-menu"><h3>Test de Salud Mental</h3></a>
+    <a href="4.html" class="opcion-menu"><h3>Agendar</h3></a>
+    <a href="5.html" class="opcion-menu"><h3>Acerca de </h3></a>
+   
+</div>
+<section class="s animate__animated animate__backInLeft">
+
+    <article class="a1">
+        <h3>Objetivo</h3>
+        <p class="parrafo">  
+           Identificar cómo se siente el estudiante en relación con sus emociones, estado de ánimo, estrés, relaciones sociales y bienestar psicológico dentro y fuera del entorno educativo.
+        </p>
+    
+   <article class="a1">
+    <h3>Opciones de respuesta:</h3>
+    <p class="parrafo">  
+        <ul class="parrafo">
+            <li>Sí: Cuando la situacion descrita ocurre habitualmente.</li>
+            <li>Regular: Cuando ocurre algunas veces o de manera moderada.</li>
+            <li>No: Cuando la situación no ocurre o casi nunca.</li>
+        </ul>
+    </p>
+    </article>
+</section>
+<section class="s animate__animated animate__backInLeft">
+    <div class="a1">
+    <h2>Cuestionario:</h2>
+    <p><h3>1.¿Te has sentido feliz y motivado al asistir a clases?</h3>
+        <label for="pregunta1s">Sí</label>
+        <input type="radio" id="pregunta1s" name="pregunta1" value="si">
+        <label for="pregunta1n">No</label>
+        <input type="radio" id="pregunta1n" name="pregunta1" value="no">
+    </p>
+    <p><h3>2. ¿Has sentido estrés o preocupación por las tareas, exámenes o responsabilidades académicas?</h3>
+        <label for="pregunta2s">Sí</label>
+        <input type="radio" id="pregunta2s" name="pregunta2" value="si">
+        <label for="pregunta2n">No</label>
+        <input type="radio" id="pregunta2n" name="pregunta2" value="no">
+    </p>
+    <p><h3>3. ¿Has tenido dificultades para dormir debido a preocupaciones o pensamientos?</h3>
+        <label for="pregunta3s">Sí</label>
+        <input type="radio" id="pregunta3s" name="pregunta3" value="si">
+        <label for="pregunta3n">No</label>
+        <input type="radio" id="pregunta3n" name="pregunta3" value="no">
+    </p>
+     <p><h3>4. ¿Te has sentido triste, desanimado o sin ganas de realizar tus actividades diarias?</h3>
+        <label for="pregunta4s">Sí</label>
+        <input type="radio" id="pregunta4s" name="pregunta4" value="si">
+        <label for="pregunta4n">No</label>
+        <input type="radio" id="pregunta4n" name="pregunta4" value="no">
+    </p>
+     <p><h3>5. ¿Consideras que puedes controlar tus emociones cuando enfrentas situaciones difíciles?</h3>
+        <label for="pregunta5s">Sí</label>
+        <input type="radio" id="pregunta5s" name="pregunta5" value="si">
+         <label for="pregunta5n">No</label>
+        <input type="radio" id="pregunta5n" name="pregunta5" value="no">
+    </p>
+    <br> <br>
+    <button  id="evaluar"  Type="button" onclick="evaluacionTest()">Evaluar</button>
+    </div>
+
+    
+</section>
+<div class="a1 animate__animated animate__backInLeft" id="resultado" aria-live="polite">
+    
+</div>
+
+<footer id="foot">
+    <h4>Developed by PINES team</h4>
+    <a href=""><img src="../../resources/images/facebook_logo.webp" alt="facebook" ></a>
+    <a href=""><img src="../../resources/images/whatsapp_logo.png" alt="whatsapp" ></a>
+</footer>
+
+
+</body>
+</html>
